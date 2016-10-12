@@ -26,6 +26,7 @@ using System.Linq;
 
 namespace XamarinUtils.Droid
 {
+
     public class Camera2View : FrameLayout
     {
         bool OpeningCamera;
