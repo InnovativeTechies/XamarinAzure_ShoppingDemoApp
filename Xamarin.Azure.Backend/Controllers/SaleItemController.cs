@@ -10,6 +10,9 @@ using Xamarin.Azure.Backend.Models;
 
 namespace Xamarin.Azure.Backend.Controllers
 {
+    using Microsoft.Azure.Mobile.Server.Config;
+
+    [MobileAppController]
     public class SaleItemController : TableController<SaleItem>
     {
         protected override void Initialize(HttpControllerContext controllerContext)

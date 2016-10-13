@@ -8,6 +8,9 @@ using Xamarin.Azure.Backend.DataObjects;
 
 namespace Xamarin.Azure.Backend.Controllers
 {
+    using Microsoft.Azure.Mobile.Server.Config;
+
+    [MobileAppController]
     public class SaleItemStorageController : StorageController<SaleItem>
     {
         // POST tables/SaleItem/F366EBB2-6D7D-4E09-A4F2-DF16819F6302/StorageToken
